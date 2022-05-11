@@ -46,6 +46,7 @@ log(x) # natural log
 #choose(n,r): combination
 choose(5,3)
 #factorial(n)
+cor(x,y)
 
 #string functions
 #concat strings
