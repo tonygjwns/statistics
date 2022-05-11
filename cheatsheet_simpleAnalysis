@@ -16,6 +16,10 @@ x<-runif(n[i],min=0,max=1)
 
 
 #plot
+#plot(x,y) 는 산점도
+math<-c(66,64,48,46,78,60,90,50,66,70)
+phy<-c(70,68,46,48,84,64,92,52,68,72)
+plot(math,phy)
 
 #plot(x,y,type(shape), main(name of plot))
 plot(x,fx,type="l",main="표준정규분포 확률밀도 함")
@@ -43,6 +47,15 @@ boxplot(score)
 
 # 다중 그래프창 생성
 par(mfrow=c(4,1)) 
+
+#table: counts the elements
+table(gender)
+#summary of data for all type
+#mean, sd, var, median, quantile, sun. min ,max
+summary(gender)
+
+
+
 
 
 
