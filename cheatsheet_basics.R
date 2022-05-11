@@ -1,5 +1,8 @@
 #make vector
 x<-c(1,3,5,7)
+#factor vector
+gender<-factor(c('M','M','M','M','M','M','M','M','F','F','F','F','F','F','F','F','F','F'))
+
 
 #get element
 x2<-x[2]
