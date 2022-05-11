@@ -27,6 +27,20 @@ plot(x,fx,main="이항분포의 확률밀도함수",type='h')
 plot(x,fx,pch=16,xlim=c(-3,15), ylab='probability',xlab="", main=paste("이항분포의 정규근사(p=",p,",n=",n[i],")"))
 lines(x,fx)
 
+
+#hist
+hist(score)
+#freq=F는 상대도수로
+hist(score,freq = F)
+#breaks: 계급의 수
+hist(score, breaks = 10)
+
+#stem 줄기-잎 그림
+stem(score)
+
+#boxplot
+boxplot(score)
+
 # 다중 그래프창 생성
 par(mfrow=c(4,1)) 
 
