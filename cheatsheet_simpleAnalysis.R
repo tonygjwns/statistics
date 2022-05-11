@@ -45,6 +45,11 @@ stem(score)
 #boxplot
 boxplot(score)
 
+#qqplot
+qqnorm(sample)
+qqline(sample)
+
+
 # 다중 그래프창 생성
 par(mfrow=c(4,1)) 
 
